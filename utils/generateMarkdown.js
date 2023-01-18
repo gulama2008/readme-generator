@@ -3,29 +3,29 @@
 function renderLicenseBadge(license) {
   switch (license) { 
     case 'Apache license 2.0':
-      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]'
+      return '![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)'
     case 'Boost Software License 1.0':
-      return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]'
+      return '![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)'
     case 'BSD 2-clause "Simplified" license':
-      return '[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)]'
+      return '![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)'
     case 'BSD 3-clause "New" or "Revised" license':
-      return '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]'
+      return '![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)'
     case 'Creative Commons Zero v1.0 Universal':
-      return '[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)]'
+      return '![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)'
     case 'Eclipse Public License 2.0':
-      return '[![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)]'
+      return '![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)'
     case 'GNU Affero General Public License v3.0':
-      return '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)]'
+      return '![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)'
     case 'GNU General Public License v2.0':
-      return '[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)]'
+      return '![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)'
     case 'GNU General Public License v3.0':
-      return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]'
+      return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
     case 'GNU Lesser General Public License v2.1':
-      return '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)]'
+      return '![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)'
     case 'MIT':
-      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
+      return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
     case 'The Unlicense':
-      return '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]'
+      return '![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)'
     default:
       return ""
   }
@@ -77,6 +77,7 @@ function generateMarkdown(data) {
   return `# ${data.title} ${badge}
 
 ## Description
+
 ${data.description}
 
 ## Table of Contents
@@ -111,7 +112,9 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
+
 My github link: https://github.com/${data.githubUsername}
+
 If you have additional questions, please send email to ${data.email}
 `;
 }
