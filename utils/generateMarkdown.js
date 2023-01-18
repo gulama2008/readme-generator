@@ -113,9 +113,11 @@ ${data.tests}
 
 ## Questions
 
+If you have additional questions, please contact me at: 
+
 My github link: https://github.com/${data.githubUsername}
 
-If you have additional questions, please send email to ${data.email}
+My email address: ${data.email}
 `;
 }
 
