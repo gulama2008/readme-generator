@@ -97,8 +97,6 @@ ${data.installation}
 
 ${data.usage}
 
-![alt text](${data.imgUrl})
-
 ## License
 
 The application is covered by license ${data.license}
