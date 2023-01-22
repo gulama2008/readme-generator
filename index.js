@@ -51,6 +51,7 @@ const questions = [
       "MIT",
       "Mozilla Public License 2.0",
       "The Unlicense",
+      "No license"
     ],
     name: "license",
   },

@@ -1,8 +1,8 @@
-# aaa ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
+# aaa 
+  
 ## Description
 
-aa
+aaa
 
 ## Table of Contents
 
@@ -19,15 +19,15 @@ aaa
 
 ## Usage
 
-aaa
+aa
 
 ## License
 
-The application is covered by license MIT
+
 
 ## Contributing
 
-aaa
+aa
 
 ## Tests
 
@@ -37,6 +37,6 @@ aaa
 
 If you have additional questions, please contact me at: 
 
-My github link: https://github.com/aaaa
+My github link: https://github.com/sss
 
-My email address: aaaaa
+My email address: sss
