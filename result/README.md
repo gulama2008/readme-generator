@@ -1,8 +1,8 @@
-# aaa 
+# My Project ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
 ## Description
 
-aaa
+Some description
 
 ## Table of Contents
 
@@ -15,28 +15,28 @@ aaa
 
 ## Installation
 
-aaa
+Some installation instruction
 
 ## Usage
 
-aa
+Some usage information
 
 ## License
 
-
+The application is covered by license MIT, license link is https://opensource.org/licenses/MIT
 
 ## Contributing
 
-aa
+Some contribution guidelines
 
 ## Tests
 
-aaa
+Some test instructions
 
 ## Questions
 
 If you have additional questions, please contact me at: 
 
-My github link: https://github.com/sss
+My github link: https://github.com/gulama2008
 
-My email address: sss
+My email address: abc@gmail.com
